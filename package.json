@@ -1,0 +1,30 @@
+{
+  "name": "editorial-blog-layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gh-pages -d src/",
+    "dev": "servor src/ index.html 1234 --reload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.7.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "oxfmt": "^0.55.0",
+    "oxlint": "^1.70.0",
+    "servor": "^4.0.2",
+    "stylelint": "^17.13.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}
