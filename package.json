@@ -22,9 +22,9 @@
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "oxfmt": "^0.55.0",
-    "oxlint": "^1.70.0",
+    "oxlint": "^1.75.0",
     "servor": "^4.0.2",
-    "stylelint": "^17.13.0",
+    "stylelint": "^17.14.1",
     "stylelint-config-standard": "^40.0.0"
   }
 }
